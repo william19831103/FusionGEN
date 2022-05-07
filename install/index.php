@@ -7,6 +7,7 @@ $gd_success = false;
 $json_success = false;
 $gmp_success = false;
 $rewrite_success = false;
+$soap_success = false;
 
 $php_version_required = "7.1.33";
 $current_php_version = PHP_VERSION;
