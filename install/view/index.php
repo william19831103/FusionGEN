@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Err0r">
-        <link rel="icon" href="assets/images/favicon.png" />
+        <link rel="icon" href="assets/images/favicon.png">
         <title>Installation - FusionGEN</title>
-        <link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css' />
-        <link rel='stylesheet' type='text/css' href='assets/css/font-awesome/css/font-awesome.min.css' />
-        <link rel='stylesheet' type='text/css' href='assets/css/install.css' />
+        <link rel='stylesheet' type='text/css' href='assets/bootstrap/css/bootstrap.min.css'>
+        <link rel='stylesheet' type='text/css' href='assets/css/font-awesome/css/font-awesome.min.css'>
+        <link rel='stylesheet' type='text/css' href='assets/css/install.css'>
         <script type='text/javascript' src="assets/js/realms.js"></script>
         <script type='text/javascript' src='assets/js/jquery-1.11.3.min.js'></script>
         <script type='text/javascript' src='assets/js/jquery-validation/jquery.validate.min.js'></script>
@@ -20,7 +20,7 @@
         <div class="install-box">
             <div class="panel panel-install">
                 <div class="panel-heading text-center">                    
-					<img src="assets/images/logo.png" />
+					<img src="assets/images/logo.png">
                 </div>
                 <div class="panel-body no-padding">
                     <div class="tab-container clearfix">
@@ -53,7 +53,7 @@
                         <div role="tabpanel" class="tab-pane" id="requirements-tab">
                             <div class="section">
                                 <p>1. Please configure your PHP settings to match following requirements:</p>
-                                <hr />
+                                <hr>
                                 <div>
                                     <table>
                                         <thead>
@@ -84,7 +84,7 @@
 
                             <div class="section">
                                 <p>2. Please make sure the extensions/settings listed below are installed/enabled:</p>
-                                <hr />
+                                <hr>
                                 <div>
                                     <table>
                                         <thead>
@@ -237,9 +237,9 @@
                                 </div>
                             </div>
 
-							<!--<div class="section">
+							<div class="section">
                                 <p>3. Please make sure the modules listed below are installed/enabled:</p>
-                                <hr />
+                                <hr>
                                 <div>
                                     <table>
                                         <thead>
@@ -271,11 +271,11 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>-->
+                            </div>
 
                             <div class="section">
                                 <p>3. Please make sure you have set the <strong>writable</strong> permission on the following folders/files:</p>
-                                <hr />
+                                <hr>
                                 <div>
                                     <table>
                                         <tbody>
@@ -316,30 +316,30 @@
 							<form name="general-form" id="general-form" action="do_general.php" method="post" autocomplete="off">
 								<div class="section clearfix">
 									<p>Enter general settings</p>
-									<hr />
+									<hr>
 									<div>
 										<div class="form-group clearfix">
 											<label class="col-md-3" for="title">Website title</label>
 											<div class="col-md-9">
-												<input class="form-control" type="text" value="" id="title" name="title" placeholder="My Desired Website Title" />
+												<input class="form-control" type="text" value="" id="title" name="title" placeholder="My Desired Website Title">
 											</div>
 										</div>
 										<div class="form-group clearfix">
 											<label class="col-md-3" for="server_name">Server name</label>
 											<div class="col-md-9">
-												<input class="form-control" type="text" value="" id="server_name" name="server_name" placeholder="My Desired Server Name" />
+												<input class="form-control" type="text" value="" id="server_name" name="server_name" placeholder="My Desired Server Name">
 											</div>
 										</div>
 										<div class="form-group clearfix">
 											<label class="col-md-3" for="realmlist">Realmlist</label>
 											<div class="col-md-9">
-												<input class="form-control" type="text" value="" id="realmlist" name="realmlist" placeholder="logon.myserver.com" />
+												<input class="form-control" type="text" value="" id="realmlist" name="realmlist" placeholder="logon.myserver.com">
 											</div>
 										</div>
 										<div class="form-group clearfix">
 											<label class=" col-md-3" for="security_code">Admin Panel (ACP) Security Password</label>
 											<div class="col-md-9">
-												<input class="form-control" type="text" value="" id="security_code" name="security_code" />
+												<input class="form-control" type="text" value="" id="security_code" name="security_code">
 											</div>
 										</div>
 										<div class="form-group clearfix">
@@ -351,7 +351,7 @@
 													<!--<option value="legion-ar">Legion Allied Races (7.3.5)</option>-->
 													<!--<option value="legion">Legion (7.x.x)</option>-->
 													<!--<option value="wod">Warlords of Draenor (6.x.x)</option>-->
-													<!--<option value="mop">Mists of Pandaria 5.x.x)</option>-->
+													<option value="mop">Mists of Pandaria 5.x.x)</option>
 													<!--<option value="cata">Cataclysm (4.3.4)</option>-->
 													<option value="wotlk">Wrath of the Lich King (3.3.5)</option>
 													<!--<option value="tbc">The Burning Crusade (2.4.3)</option>-->
@@ -362,20 +362,20 @@
 										<div class="form-group clearfix">
 											<label class="col-md-3" for="keywords">Search engine: keywords (recommended for a better SEO Ranking)(separated by comma)</label>
 											<div class="col-md-9">
-												<input class="form-control" type="text" value="" id="keywords" name="keywords" placeholder="world of warcraft,wow,private server,pvp" />
+												<input class="form-control" type="text" value="" id="keywords" name="keywords" placeholder="world of warcraft,wow,private server,pvp">
 											</div>
 										</div>
 										<div class="form-group clearfix">
 											<label class="col-md-3" for="description">Search engine: description (recommended for a better SEO Ranking)</label>
 											<div class="col-md-9">
-												<input class="form-control" type="text" value="" id="description" name="description" placeholder="Best World of Warcraft private server in the entire world!" />
+												<input class="form-control" type="text" value="" id="description" name="description" placeholder="Best World of Warcraft private server in the entire world!">
 											</div>
 										</div>
 										<div class="form-group clearfix">
 											<label class=" col-md-3" for="analytics"><a href="https://analytics.google.com/analytics/web/" target="_blank">Google Analytics</a> website ID for advanced statistics (optional)</label>
 											<div class="col-md-9">
 											(A more in-depth Analytic System than what is provided within the Admin Panel [ACP])
-												<input class="form-control" type="text" value="" id="analytics" name="analytics" placeholder="XX-YYYYYYYY-Z" />
+												<input class="form-control" type="text" value="" id="analytics" name="analytics" placeholder="XX-YYYYYYYY-Z">
 											</div>
 										</div>
 										<div class="form-group clearfix">
@@ -403,36 +403,36 @@
                             <form name="database-form" id="database-form" action="do_database.php" method="post" autocomplete="off">
                                 <div class="section clearfix">
                                     <p>1. Please enter your <strong>FusionGen</strong> database connection details.</p>
-                                    <hr />
+                                    <hr>
                                     <div>
                                         <div class="form-group clearfix">
                                             <label for="host" class="col-md-3">Database Host</label>
                                             <div class="col-md-9">
-                                                <input type="text" value="" id="host" name="host" class="form-control" placeholder="FusionGen Database Host (usually localhost)" />
+                                                <input type="text" value="" id="host" name="host" class="form-control" placeholder="FusionGen Database Host (usually localhost)">
                                             </div>
                                         </div>
                                         <div class="form-group clearfix">
                                             <label for="dbuser" class="col-md-3">Database User</label>
                                             <div class=" col-md-9">
-                                                <input type="text" value="" name="dbuser" class="form-control" autocomplete="off" placeholder="FusionGen Database user name" />
+                                                <input type="text" value="" name="dbuser" class="form-control" autocomplete="off" placeholder="FusionGen Database user name">
                                             </div>
                                         </div>
                                         <div class="form-group clearfix">
                                             <label for="dbpassword" class="col-md-3">Password</label>
                                             <div class=" col-md-9">
-                                                <input type="password" value="" name="dbpassword" class="form-control" autocomplete="off" placeholder="FusionGen Database user password" />
+                                                <input type="password" value="" name="dbpassword" class="form-control" autocomplete="off" placeholder="FusionGen Database user password">
                                             </div>
                                         </div>
                                         <div class="form-group clearfix">
                                             <label for="dbname" class="col-md-3">Database Name</label>
                                             <div class=" col-md-9">
-                                                <input type="text" value="" name="dbname" class="form-control" placeholder="FusionGen Database Name" />
+                                                <input type="text" value="" name="dbname" class="form-control" placeholder="FusionGen Database Name">
                                             </div>
                                         </div>
 										<div class="form-group clearfix">
                                             <label for="dbname" class="col-md-3">Database Port</label>
                                             <div class=" col-md-9">
-                                                <input type="text" value="" name="dbport" class="form-control" placeholder="FusionGen Database Port" />
+                                                <input type="text" value="" name="dbport" class="form-control" placeholder="FusionGen Database Port">
                                             </div>
                                         </div>
                                     </div>
@@ -440,36 +440,36 @@
 
                                 <div class="section clearfix">
                                     <p>2. Please enter your <strong>Auth</strong> database connection details.</p>
-                                    <hr />
+                                    <hr>
                                     <div>
                                         <div class="form-group clearfix">
                                             <label for="auth_host" class="col-md-3">Database Host</label>
                                             <div class="col-md-9">
-                                                <input type="text" value="" id="auth_host"  name="auth_host" class="form-control" placeholder="Auth Database Host (usually localhost)" />
+                                                <input type="text" value="" id="auth_host"  name="auth_host" class="form-control" placeholder="Auth Database Host (usually localhost)">
                                             </div>
                                         </div>
                                         <div class="form-group clearfix">
                                             <label for="auth_db_user" class="col-md-3">Database User</label>
                                             <div class=" col-md-9">
-                                                <input type="text" value="" name="auth_db_user" class="form-control" autocomplete="off" placeholder="Auth Database user name" />
+                                                <input type="text" value="" name="auth_db_user" class="form-control" autocomplete="off" placeholder="Auth Database user name">
                                             </div>
                                         </div>
                                         <div class="form-group clearfix">
                                             <label for="auth_db_pass" class="col-md-3">Password</label>
                                             <div class=" col-md-9">
-                                                <input type="password" value="" name="auth_db_pass" class="form-control" autocomplete="off" placeholder="Auth Database user password" />
+                                                <input type="password" value="" name="auth_db_pass" class="form-control" autocomplete="off" placeholder="Auth Database user password">
                                             </div>
                                         </div>
                                         <div class="form-group clearfix">
                                             <label for="auth_db" class="col-md-3">Database Name</label>
                                             <div class=" col-md-9">
-                                                <input type="text" value="" name="auth_db" class="form-control" placeholder="Auth Database Name" />
+                                                <input type="text" value="" name="auth_db" class="form-control" placeholder="Auth Database Name">
                                             </div>
                                         </div>
 										<div class="form-group clearfix">
                                             <label for="auth_db" class="col-md-3">Database Port</label>
                                             <div class=" col-md-9">
-                                                <input type="text" value="" name="auth_port" class="form-control" placeholder="Auth Database Port" />
+                                                <input type="text" value="" name="auth_port" class="form-control" placeholder="Auth Database Port">
                                             </div>
                                         </div>
                                     </div>
@@ -487,84 +487,84 @@
 							<form name="realms-form" id="realms-form" action="do_realms.php" method="post" autocomplete="off">
 								<div class="section clearfix">
 									<p>Realms settings</p>
-									<hr />
+									<hr>
 									<span>You must specify a realm so that you can log in later</span><br>
 									<span>If you host the realm databases on another host (i.e. not on the server where you are running the emulator), you can configure that via the admin panel afterwards</span>
 									<div>
 										<div class="form-group clearfix">
 											<label for="hostname" class="col-md-3">Hostname</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="hostname" name="hostname" placeholder="127.0.0.1" />
+												<input class="form-control" type="text" value="" id="hostname" name="hostname" placeholder="127.0.0.1">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="username" class="col-md-3">Database username</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="username" name="username" placeholder="Realm Database username" />
+												<input class="form-control" type="text" value="" id="username" name="username" placeholder="Realm Database username">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="password" class="col-md-3">Database password</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="password" value="" id="password" name="password" placeholder="Realm Database password" />
+												<input class="form-control" type="password" value="" id="password" name="password" placeholder="Realm Database password">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="characters" class="col-md-3">Characters database</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="characters" name="characters" placeholder="Characters database name" />
+												<input class="form-control" type="text" value="" id="characters" name="characters" placeholder="Characters database name">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="world" class="col-md-3">World database</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="world" name="world" placeholder="World database name" />
+												<input class="form-control" type="text" value="" id="world" name="world" placeholder="World database name">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="cap" class="col-md-3">Max allowed players online</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="cap" name="cap" placeholder="100" />
+												<input class="form-control" type="text" value="" id="cap" name="cap" placeholder="100">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="realmName" class="col-md-3">Realm name</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="realmName" name="realmName" placeholder="Realm name" />
+												<input class="form-control" type="text" value="" id="realmName" name="realmName" placeholder="Realm name">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="db_port" class="col-md-3">Database port</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="db_port" name="db_port" placeholder="3306" />
+												<input class="form-control" type="text" value="" id="db_port" name="db_port" placeholder="3306">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
-											<label for="console_username" class="col-md-3" data-toggle="tooltip" data-placement="top" title="For an ingame account with GM level high enough to connect to your<br />emulator console remotely (see your emulator's config files for more details)">Console username (only required for emulators that use remote console systems) (?)</label>
+											<label for="console_username" class="col-md-3" data-toggle="tooltip" data-placement="top" title="For an ingame account with GM level high enough to connect to your<br>emulator console remotely (see your emulator's config files for more details)">Console username (only required for emulators that use remote console systems) (?)</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="console_username" name="console_username" placeholder="Username from GM LvL 4 Account" />
+												<input class="form-control" type="text" value="" id="console_username" name="console_username" placeholder="Username from GM LvL 4 Account">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
-											<label for="console_password" class="col-md-3" data-toggle="tooltip" data-placement="top" title="For an ingame account with GM level high enough to connect to your<br />emulator console remotely (see your emulator's config files for more details)">Console password (only required for emulators that use remote console systems) (?)</label>
+											<label for="console_password" class="col-md-3" data-toggle="tooltip" data-placement="top" title="For an ingame account with GM level high enough to connect to your<br>emulator console remotely (see your emulator's config files for more details)">Console password (only required for emulators that use remote console systems) (?)</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="password" value="" id="console_password" name="console_password" placeholder="Password from GM LvL 4 Account" />
+												<input class="form-control" type="password" value="" id="console_password" name="console_password" placeholder="Password from GM LvL 4 Account">
 											</div>
 										</div>
 
 										<div class="form-group clearfix">
 											<label for="console_port" class="col-md-3">Console port (only required for emulators that use remote console systems; usually 3443 for RA and 7878 for SOAP)</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="console_port" name="console_port" placeholder="7878 suggested" />
+												<input class="form-control" type="text" value="" id="console_port" name="console_port" placeholder="7878 suggested">
 											</div>
 										</div>
 
@@ -580,7 +580,7 @@
 										<div class="form-group clearfix">
 											<label for="realm_port" class="col-md-3">Realm port (usually 8085 for Trinity/AzerothCore based emulators)</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="realm_port" name="realm_port" placeholder="8085" />
+												<input class="form-control" type="text" value="" id="realm_port" name="realm_port" placeholder="8085">
 											</div>
 										</div>
 									</div>
@@ -599,13 +599,13 @@
 							<form name="owner-form" id="owner-form" action="do_owner.php" method="post" autocomplete="off">
 								<div class="section clearfix">
 									<p>Homepage Owner</p>
-									<hr />
+									<hr>
 									<span>Enter your account name to get owner access on the homepage (Case sensitive!)</span>
 									<div>
 										<div class="form-group clearfix">
 											<label for="accname" class="col-md-3">Account Name</label>
 											<div class=" col-md-9">
-												<input class="form-control" type="text" value="" id="accname" name="accname" placeholder="" />
+												<input class="form-control" type="text" value="" id="accname" name="accname" placeholder="">
 											</div>
 										</div>
 									</div>
