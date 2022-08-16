@@ -237,7 +237,7 @@
                                 </div>
                             </div>
 
-							<div class="section">
+							<!--<div class="section">
                                 <p>3. Please make sure the modules listed below are installed/enabled:</p>
                                 <hr>
                                 <div>
@@ -271,7 +271,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>
+                            </div>-->
 
                             <div class="section">
                                 <p>3. Please make sure you have set the <strong>writable</strong> permission on the following folders/files:</p>
